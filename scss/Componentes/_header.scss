@@ -1,0 +1,36 @@
+header{
+    background-color: beige;
+    border-bottom: 1px black solid;
+    padding-top: 30px;
+
+    nav{
+
+        ul{
+            display: flex;
+            justify-content:space-around;
+
+
+            li{
+                list-style: none;
+                margin-top: 20px;
+                
+
+                a {
+                    text-decoration: none;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size:larger;
+                    color: black;
+                    
+                }
+            }
+        }
+        img{
+            width: 100px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            border-radius: 70%;
+        }
+    }
+}
