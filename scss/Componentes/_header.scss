@@ -1,10 +1,17 @@
 header{
-    background-color: beige;
-    border-bottom: 1px black solid;
-    padding-top: 30px;
+     
+    nav{ 
+     background-color: plum;
+     border-bottom: 1px black solid;
+     padding-top: 30px;
+     position: fixed;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 9999;
 
-    nav{
-
+       
+         
         ul{
             display: flex;
             justify-content:space-around;
